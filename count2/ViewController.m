@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)plus{
+    number++;
+    label.text = [NSString StringWithFormat:@"%d",number];
+}
+
 @end
