@@ -26,7 +26,7 @@
 
 -(IBAction)plus{
     number++;
-    label.text = [NSString StringWithFormat:@"%d",number];
+    label.text = [NSString stringWithFormat:@"%d",number];
 }
 
 @end
